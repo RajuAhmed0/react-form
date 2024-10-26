@@ -1,5 +1,6 @@
 import './App.css'
 import SimpleFrom from './Components/from/SimpleFrom'
+import Principal from './Components/Principal/Principal'
 import StateFrom from './Components/StateFrom'
 
 function App() {
@@ -7,9 +8,10 @@ function App() {
 
   return (
     <div>
-      <h1>Login Form</h1>
+      {/* <h1>Login Form</h1> */}
       {/* <SimpleFrom></SimpleFrom> */}
-      <StateFrom></StateFrom>
+      {/* <StateFrom></StateFrom> */}
+      <Principal></Principal>
     </div>
     
   )
